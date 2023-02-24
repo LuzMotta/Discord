@@ -12,7 +12,7 @@ body {
     background-color: #404eed;
     background-image: url('../../assets/images/fundo.svg');
     background-size: cover;
-    background-position: -435px 0px;
+    background-position: -590px 2000px;
     color: #fff;
 
     position: relative;
@@ -269,17 +269,69 @@ right: -195px;
     
 }
 
-.p5-text h1 {
-    font: 40px discord1;
-    color: black;
-    width: 0px;
-    line-height: 40px;
-    margin-bottom: -650px;
+.p5-live {
+    display:flexbox;
+    margin: 0 auto;
+    margin-top: 300px;
 }
 
-.p5-text p {
-    font: 20px discord2;
-    color:black;
-    line-height: 32px;
+.p5-text {
+    margin: 0;
+    padding: 20px 0;
+
 }
+
+.p5-text h4 {
+font: 40px 'discord1';
+color: #23272a;
+margin-top: -700px;
+padding: -50px 500px;
+
+text-align: center;
+line-height: 40px;
+
+
+}
+  
+
+.p5-text p {
+    font: 20px 'discord2';
+    width: 900px;
+    text-align: center;
+    line-height: 32px;
+    padding: -50px 500px;
+
+    margin-bottom: 30px;
+}
+
+.p5text2{
+    font: 40px discord3;
+    color: black;
+    font-weight: 100;
+    font-size: 32px;
+    margin-top: 30px;
+    line-height: 120%;
+    
+
+}
+
+.p5-botoes > a {
+    font: 20px 'discord3';
+    background-color: #5865f2;;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0px 10px;
+
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+
+}
+
+.p5-botoes > a:hover {
+    box-shadow: 0px 8px 15px rgba(0 0 0 / 20%);
+    color: #ffffff75;
+}
+
 
