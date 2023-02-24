@@ -1,0 +1,285 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.page-01 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 25px 0px 130px 0px;
+
+    background-color: #404eed;
+    background-image: url('../../assets/images/fundo.svg');
+    background-size: cover;
+    background-position: -435px 0px;
+    color: #fff;
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.page-01 a {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.p1-tenis {
+    position: absolute;
+    bottom: 0px;
+    left: -238px;
+
+}
+
+.p1-bar {
+position: absolute;
+bottom: 0px;
+right: -195px;
+
+}
+
+.p1-cabecalho {
+    display:flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+
+    margin-bottom: 140px;
+
+}
+
+.p1-cabecalho > a {
+    font: 14px 'discord3';
+    background-color: #fff;
+    color: #23272a;
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+
+.p1-cabecalho > a:hover {
+    box-shadow: 0px 8px 15px rgba(0 0 0 / 20%);
+    color: #5865f2; 
+}
+
+
+.p1-menu{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.p1-menu a {
+    font: 16px 'discord4';
+    margin: 5px 20px;
+
+}
+
+.p1-menu a:hover {
+    text-decoration: underline;
+}
+
+.page-01 > h1{
+    font: 56px 'discord1';
+    width: 500px;
+    text-align: center;
+    line-height: 50px;
+
+    margin-bottom: 50px;
+}
+
+.page-01 > p {
+    font: 20px 'discord2';
+    width: 780px;
+    text-align: center;
+    line-height: 32px;
+
+    margin-bottom: 30px;
+}
+
+.p1-botoes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.p1-botoes > a {
+    font: 20px 'discord3';
+    background-color: #fff;
+    color: #23272a;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 0px 10px;
+
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+
+}
+
+.p1-botoes > a:hover {
+    box-shadow: 0px 8px 15px rgba(0 0 0 / 20%);
+    color: #5865f2;
+}
+
+.p1-botao-escuro {
+    background-color: #23272a !important;
+    color: #fff !important;
+}
+
+.p1-botao-escuro {
+    background-color: rgb(59, 59, 59) !important;
+}
+
+.p1-botoes > a > svg {
+    margin-right: 10px;
+}
+
+
+.page-02{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 0px;
+    background-color: #fff;
+
+}
+
+.p2-text {
+    display: flex;
+    flex-direction: column;
+
+    width: 370px;
+}
+
+.p2-text h1 {
+    font: 50px discord5;
+    color: black;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+
+.p2-text p {
+    font: 20px discord2;
+    color:black;
+    line-height: 32px;
+}
+
+.page-02 > 
+
+* {
+    margin: 0px 50px;
+}
+
+.page-03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 0px;
+
+}
+
+.p3-voice {
+    position: relative;
+    bottom: 10px;
+    right: -500px;
+}
+
+.p3-text {
+    display: flex;
+    flex-direction: column;
+
+    width: 370px;
+}
+
+.p3-text h1 {
+    font: 50px discord5;
+    color: black;
+    line-height: 55px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 800px;
+}
+
+.p3-text p {
+    font: 20px discord2;
+    color:black;
+    line-height: 32px;
+    position: relative;
+    right: 800px;
+}
+
+.page-03 > 
+
+* {
+    margin: 0px 50px;
+}
+
+.page-04{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 0px;
+    background-color: #fff;
+
+}
+
+.p4-text {
+    display: flex;
+    flex-direction: column;
+
+    width: 370px;
+}
+
+.p4-text h1 {
+    font: 50px discord5;
+    color: black;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+
+.p4-text p {
+    font: 20px discord2;
+    color:black;
+    line-height: 32px;
+}
+
+.page-04 > 
+
+* {
+    margin: 0px 50px;
+}
+
+.page-05 {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 25px 0px 130px 0px;
+    
+}
+
+.p5-text h1 {
+    font: 40px discord1;
+    color: black;
+    width: 0px;
+    line-height: 40px;
+    margin-bottom: -650px;
+}
+
+.p5-text p {
+    font: 20px discord2;
+    color:black;
+    line-height: 32px;
+}
+
