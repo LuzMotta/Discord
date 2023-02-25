@@ -1,5 +1,6 @@
 body {
     background-color: #f6f6f6;
+
 }
 
 .page-01 {
@@ -349,6 +350,12 @@ line-height: 40px;
 
 }
 
+.logoroda{
+    color:#fff;
+    margin-left: -1050;
+    margin-top: -90px;
+}
+
 .p6-text h4 {
     font: 35px 'discord1';
     color: #5865f2;
@@ -373,9 +380,49 @@ line-height: 40px;
     margin: 0px 50px;
     width: 800px;
    
+}
+
+.p6-menu2 a {
+    font: 17px 'discord2';
+    color: #fff;
+    margin-top: -200px;
+    margin-left: 50px;
+    line-height: -20px;
+    margin: 0px 50px;
+    width: 800px;
+    position: relative;
     
-    
+}
+
+.p6-menu3 {
+    font: 17px 'discord2';
+    color: #fff;
+    margin-left: 50px;
+    line-height: -20px;
+    margin: 0px 50px;
+    width: 800px;
+    margin: 0px 50px;
+    position: relative;
 
 }
+
+.p6-menu4 {
+    font: 17px 'discord2';
+    color: #fff;
+    margin: 0px 50px;
+    width: 800px;
+    position: relative;
+
+}
+
+.p6-menu5 {
+    font: 17px 'discord2';
+    color: #fff;
+    margin: 0px 50px;
+    width: 800px;
+    position: relative;
+}   
+
+
 
 
