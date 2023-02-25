@@ -67,7 +67,7 @@ right: -195px;
 }
 
 
-.p1-menu{
+.p1-menu {
     display: flex;
     flex-direction: row;
 
@@ -273,20 +273,22 @@ right: -195px;
     display:flexbox;
     margin: 0 auto;
     margin-top: 300px;
+    min-width: 1150px;
 }
 
 .p5-text {
     margin: 0;
-    padding: 20px 0;
+    padding: 20px 0px;
 
 }
 
 .p5-text h4 {
 font: 40px 'discord1';
 color: #23272a;
-margin-top: -700px;
+margin-top: -900px;
 padding: -50px 500px;
-
+width: 700px;
+margin-left: 150px;
 text-align: center;
 line-height: 40px;
 
@@ -296,32 +298,34 @@ line-height: 40px;
 
 .p5-text p {
     font: 20px 'discord2';
-    width: 900px;
+    width: 1000px;
     text-align: center;
     line-height: 32px;
     padding: -50px 500px;
+    margin-top: 15px;
 
     margin-bottom: 30px;
 }
 
-.p5text2{
+.p5-text2 {
     font: 40px discord3;
     color: black;
     font-weight: 100;
     font-size: 32px;
-    margin-top: 30px;
+    margin-top: 25px;
     line-height: 120%;
+    margin-right: -5px;
     
-
 }
 
 .p5-botoes > a {
     font: 20px 'discord3';
     background-color: #5865f2;;
     color: #fff;
-    padding: 15px 30px;
+    padding: 15px 50px;
     border-radius: 30px;
     margin: 0px 10px;
+    margin-top: 50px;
 
     display: flex;
     align-items: center;
@@ -332,6 +336,46 @@ line-height: 40px;
 .p5-botoes > a:hover {
     box-shadow: 0px 8px 15px rgba(0 0 0 / 20%);
     color: #ffffff75;
+}
+
+.page-06  {
+    background: #232324;
+    display: flex;
+    align-items: top;
+    width: 1583px;
+    height: 600px;
+    padding: 110px 0px;
+    margin-top: 130px;
+
+}
+
+.p6-text h4 {
+    font: 35px 'discord1';
+    color: #5865f2;
+    padding: -50px 500px;
+    width: 285px;
+    margin-left: -600px;
+    text-align: left;
+    line-height: 35px;
+    margin-top: -500px;
+
+}
+
+.p6-menu {
+    margin-top: -500px;
+    margin-left: 200px;
+    
+}
+
+.p6-menu a {
+    font: 17px 'discord2';
+    color: #5865f2;
+    margin: 0px 50px;
+    width: 800px;
+   
+    
+    
+
 }
 
 
