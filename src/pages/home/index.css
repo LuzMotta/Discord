@@ -1,7 +1,5 @@
 body {
     background-color: #f6f6f6;
-    flex-direction: row;
-    flex-wrap: wrap;
 
 }
 
@@ -20,6 +18,10 @@ body {
 
     position: relative;
     overflow: hidden;
+
+    grid-area: rodape;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
@@ -349,6 +351,10 @@ line-height: 40px;
     height: 600px;
     padding: 110px 0px;
     margin-top: 130px;
+
+    grid-area: rodape;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
