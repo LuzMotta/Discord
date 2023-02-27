@@ -19,10 +19,6 @@ body {
     position: relative;
     overflow: hidden;
 
-    grid-area: rodape;
-    display: flex;
-    justify-content: space-evenly;
-
 }
 
 .page-01 a {
@@ -351,10 +347,6 @@ line-height: 40px;
     height: 600px;
     padding: 110px 0px;
     margin-top: 130px;
-
-    grid-area: rodape;
-    display: flex;
-    justify-content: space-evenly;
 
 }
 
