@@ -385,8 +385,10 @@ line-height: 40px;
 .p6-menu2 a {
     font: 17px 'discord2';
     color: #fff;
+    display: flex;
+    flex-direction: column;
     margin-top: -200px;
-    margin-left: 50px;
+    margin-left: 200px;
     line-height: -20px;
     margin: 0px 50px;
     width: 800px;
@@ -397,6 +399,8 @@ line-height: 40px;
 .p6-menu3 {
     font: 17px 'discord2';
     color: #fff;
+    display: flex;
+    flex-direction: column;
     margin-left: 50px;
     line-height: -20px;
     margin: 0px 50px;
@@ -409,6 +413,8 @@ line-height: 40px;
 .p6-menu4 {
     font: 17px 'discord2';
     color: #fff;
+    display: flex;
+    flex-direction: column;
     margin: 0px 50px;
     width: 800px;
     position: relative;
@@ -418,11 +424,26 @@ line-height: 40px;
 .p6-menu5 {
     font: 17px 'discord2';
     color: #fff;
+    display: flex;
+    flex-direction: column;
     margin: 0px 50px;
     width: 800px;
     position: relative;
-}   
+} 
 
+.p6-botao > a {
+    font: 15px 'discord3';
+    background-color: #5865f2;;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 0px 10px;
+    margin-left: 1100px;
+    margin-top: 340px;
+    
+    display: flex;
+    transition: 0.4s;
 
+}
 
 
