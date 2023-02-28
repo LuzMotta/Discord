@@ -1,6 +1,6 @@
 body {
     background-color: #f6f6f6;
-
+    overflow-x: hidden;
 }
 
 .page-01 {
@@ -343,7 +343,7 @@ line-height: 40px;
     background: #232324;
     display: flex;
     align-items: top;
-    width: 1583px;
+    width: 1585px;
     height: 600px;
     padding: 110px 0px;
     margin-top: 130px;
@@ -392,8 +392,7 @@ line-height: 40px;
     margin-left: 510px;
     margin-top: 10px;
     line-height: 35px;
-
-
+    
 }
 
 .p6-menu3 {
